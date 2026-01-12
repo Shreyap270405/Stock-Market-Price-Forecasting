@@ -4,6 +4,12 @@ This project is an end-to-end **Stock Price Forecasting Web Application** built 
 
 ---
 
+##  Live Demo
+
+ [Stock Market Price Forecasting Web App](https://stock-market-price-forecasting-m65wsktfkbpkvi8ishvduv.streamlit.app/)
+
+---
+
 ## Features
 - Upload historical stock price CSV files
 - Train an LSTM-based deep learning model
