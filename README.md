@@ -24,22 +24,24 @@ This project is an end-to-end **Stock Price Forecasting Web Application** built 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
+
+```text
 stock-price-forecasting/
 │
-├── app_streamlit.py          # Streamlit web application
-├── train_lstm.py             # LSTM model training logic
-├── requirements.txt          # Python dependencies
-├── README.md                 # Project documentation
+├── app_streamlit.py
+├── train_lstm.py
+├── requirements.txt
+├── README.md
 │
 ├── data/
-│   └── stock_data.csv        # Historical stock price dataset
+│   └── stock_data.csv
 │
 ├── models/
-│   └── lstm_model.h5         # Trained LSTM model
+│   └── lstm_model.h5
 │
-└── .venv/                    # Virtual environment (ignored in Git)
-
+└── .venv/
+```
 
 ---
 
@@ -53,18 +55,30 @@ stock-price-forecasting/
 ## Installation & Setup
 
 ### 1️) Clone the Repository
+
 git clone https://github.com/your-username/stock-price-forecasting.git
+
 cd stock-price-forecasting
 ### 2️) Create & Activate Virtual Environment
+
 python -m venv .venv
+
 .\.venv\Scripts\activate
+
 ### 3️) Install Dependencies
+
 pip install -r requirements.txt
+
 Or install manually:
+
 pip install streamlit tensorflow scikit-learn pandas numpy matplotlib yfinance
+
 ### How to Run the Project
+
 streamlit run app_streamlit.py
+
 Open your browser and visit:
+
 http://localhost:8501
 
 ## How It Works
@@ -80,7 +94,9 @@ http://localhost:8501
 
 ## Author
 **Shreya Pandey**
+
 B.E. Computer Science and Engineering 
+
 Data Science & Machine Learning Enthusiast
 
 ## Acknowledgements
