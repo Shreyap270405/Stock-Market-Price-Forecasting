@@ -48,36 +48,36 @@ stock-price-forecasting/
 ## Installation & Setup
 
 ### 1️⃣ Clone the Repository
-git clone https://github.com/your-username/stock-price-forecasting.git
-cd stock-price-forecasting
+- git clone https://github.com/your-username/stock-price-forecasting.git
+- cd stock-price-forecasting
 ### 2️⃣ Create & Activate Virtual Environment
-python -m venv .venv
-.\.venv\Scripts\activate
+- python -m venv .venv
+- .\.venv\Scripts\activate
 ### 3️⃣ Install Dependencies
-pip install -r requirements.txt
-Or install manually:
-pip install streamlit tensorflow scikit-learn pandas numpy matplotlib yfinance
+- pip install -r requirements.txt
+- Or install manually:
+- pip install streamlit tensorflow scikit-learn pandas numpy matplotlib yfinance
 ###▶️ How to Run the Project
-streamlit run app_streamlit.py
-Open your browser and visit:
+- streamlit run app_streamlit.py
+- Open your browser and visit:
 http://localhost:8501
 
 ## How It Works
--User uploads historical stock price data
--Data is normalized and converted into time-series sequences
--LSTM model is trained using past stock prices
--Model predicts future stock price trends
--Results are visualized using interactive charts
+- User uploads historical stock price data
+- Data is normalized and converted into time-series sequences
+- LSTM model is trained using past stock prices
+- Model predicts future stock price trends
+- Results are visualized using interactive charts
 
 ## Disclaimer
--This project is created for educational purposes only.
--Stock market predictions are probabilistic and should not be used for real-world trading decisions.
+- This project is created for educational purposes only.
+- Stock market predictions are probabilistic and should not be used for real-world trading decisions.
 
 ## Author
-Shreya Pandey
-B.E. Computer Science | Data Science & Machine Learning Enthusiast
+- Shreya Pandey
+- B.E. Computer Science | Data Science & Machine Learning Enthusiast
 
 ## Acknowledgements
--TensorFlow & Keras Documentation
--Streamlit Community
--Yahoo Finance
+- TensorFlow & Keras Documentation
+- Streamlit Community
+- Yahoo Finance
