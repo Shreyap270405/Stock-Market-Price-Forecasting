@@ -40,7 +40,7 @@ This project is an end-to-end **Stock Price Forecasting Web Application** built 
 ## Installation & Setup
 
 ### 1️) Clone the Repository
- git clone https://github.com/your-username/stock-price-forecasting.git  
+ git clone https://github.com/Shreyap270405/Stock-Market-Price-Forecasting.git  
  cd stock-price-forecasting
 
 ### 2️) Create & Activate Virtual Environment
