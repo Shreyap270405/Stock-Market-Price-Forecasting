@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+yfinance
+tensorflow>=2.9
+streamlit
+joblib
+plotly
+python-dateutil
