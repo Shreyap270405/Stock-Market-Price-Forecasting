@@ -55,30 +55,21 @@ stock-price-forecasting/
 ## Installation & Setup
 
 ### 1️) Clone the Repository
-
-git clone https://github.com/your-username/stock-price-forecasting.git
-
+git clone https://github.com/your-username/stock-price-forecasting.git  
 cd stock-price-forecasting
+
 ### 2️) Create & Activate Virtual Environment
-
-python -m venv .venv
-
+python -m venv .venv  
 .\.venv\Scripts\activate
 
 ### 3️) Install Dependencies
-
-pip install -r requirements.txt
-
-Or install manually:
-
+pip install -r requirements.txt  
+Or install manually:  
 pip install streamlit tensorflow scikit-learn pandas numpy matplotlib yfinance
 
 ### How to Run the Project
-
-streamlit run app_streamlit.py
-
-Open your browser and visit:
-
+streamlit run app_streamlit.py  
+Open your browser and visit:  
 http://localhost:8501
 
 ## How It Works
@@ -93,10 +84,8 @@ http://localhost:8501
 - Stock market predictions are probabilistic and should not be used for real-world trading decisions.
 
 ## Author
-**Shreya Pandey**
-
-B.E. Computer Science and Engineering 
-
+**Shreya Pandey**  
+B.E. Computer Science and Engineering  
 Data Science & Machine Learning Enthusiast
 
 ## Acknowledgements
